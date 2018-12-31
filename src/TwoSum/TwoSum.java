@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class TwoSum {
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] nums = {3, 2, 3};
         int target = 6;
-        Solution solution = new Solution();
         int[] indices = solution.twoSum(nums, target);
         System.out.println(Arrays.toString(indices));
     }
