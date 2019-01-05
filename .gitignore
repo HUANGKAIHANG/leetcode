@@ -27,3 +27,4 @@
 *.cmd
 /mvnw
 .mvn
+/out
